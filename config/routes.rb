@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+
+resources :taches
+
+
+  # get 'taches', to: 'taches#index'
+  # get 'taches/:id', to: 'taches#show'
+  # get 'taches/new', to: 'taches#new'
+  # post 'taches', to: 'taches#create'
+  # get 'taches', to: 'taches#create'
+  # get 'taches/:id/edit', to: 'taches#edit'
+  # get 'taches', to: 'taches#update'
+  # get 'taches', to: 'taches#destroy'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
